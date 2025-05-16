@@ -1,0 +1,15 @@
+Os comentários são linhas de código que serão ignoradas pelo interpretador
+
+Como usar:
+
+    Uma linha       // ...
+    Várias linhas   /* ... */
+
+
+Para que servem?
+
+    Deixar anotações 
+
+    Ajudar a entender o código
+
+    Documentar o código

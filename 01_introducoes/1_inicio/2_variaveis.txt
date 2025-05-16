@@ -1,0 +1,21 @@
+
+As Variáveis servem para armazenar os dados para podermos usá-los no nosso código
+
+Para nomear váriaveis podemos usar:
+
+    var: Forma antiga de declarar uma váriavel
+
+    let: Forma mais moderna (existe diferença nos usos de var e let, porém por hora, apenas queremos saber que vamos dar preferencia a usar let ao invés de "var")
+
+    const: É uma váriavel que tem valor fixo, ou seja, não se espera que seja alterado durante a execução.
+
+
+Nomeando Variáveis:
+
+    Elas devem ter nomes que as descrevem, de maneira específica.
+
+    Devem seguir um padrão como Camel Case ou Snake Case. Exemplo: nomeDeUsuario, nome_de_usuario.
+
+    Não devem possuir espaços ou caracteres especiais (como acentos por exemplo)
+
+    Não se pode ter 2 variaveis com o mesmo nome no mesmo laço do programa.

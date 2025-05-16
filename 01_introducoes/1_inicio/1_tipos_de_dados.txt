@@ -1,0 +1,31 @@
+
+Em JavaScript, os tipos de dados se dividem em primitivos e objetos:
+
+    Tipos primitivos (imutáveis):
+
+        String – textos: "Olá", 'abc'
+
+        Number – números (inteiros e decimais): 42, 3.14
+
+        Boolean – valores lógicos: true, false
+
+        Undefined – variável declarada mas sem valor: let x;
+
+        Null – ausência intencional de valor: let x = null;
+
+        BigInt – números inteiros muito grandes: 12345678901234567890n
+ 
+        Symbol – valor único e imutável usado como identificador: Symbol('id') (não apresentado na aula, porém listado no resumo que fiz pela IA)
+
+    Tipo objeto (mutável):
+
+        Object – estruturas complexas com propriedades: { nome: "Ana", idade: 30 }
+
+        Inclui arrays [], funções function(), datas new Date(), entre outros. 
+
+        Arrays: Arrays são estruturas de dados em JavaScript que armazenam uma coleção ordenada de valores, acessados por índices numéricos.
+        
+        Funções: são blocos de código reutilizáveis que executam uma tarefa quando são chamadas, podendo receber valores (parâmetros) e retornar um resultado.
+
+
+JavaScript é dinamicamente tipado: o tipo é definido automaticamente em tempo de execução.

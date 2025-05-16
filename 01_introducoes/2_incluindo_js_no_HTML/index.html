@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript em uma página web</title>
+</head>
+<body>
+    <h1>Javascript em uma página web</h1>
+
+   
+    <!-- 
+    
+    O JavaScript é atribuido no HTML pela tag script
+
+    Isso pode ser feito se escrevendo o código dentro da tag (raramente/nunca você vai querer fazer assim...)
+
+    Ou por um arquivo externo (o mais comum), através da propriedade src atribuida a tag script com o caminho para o arquivo .js que possui o código javascriipt da página.
+    -->
+
+    <script src="./index.js">
+
+        /* 
+        
+        Caso quiséssemos declarar diretamente no arquivo HTML aqui ficaria o código...
+
+        let name = "João"
+        let x = 5
+
+        console.log(nome)
+        console.log(x) 
+        
+        */
+
+    </script>
+
+    <!-- É possível ainda ter mais de um arquivo js como no exemplo abaixo -->
+
+    <script src="./arquivo.js"></script>
+
+
+    <!-- Perceba que no console, a ordem de execução foi de cima para baixo, ou seja, a ordem dos arquivos importa na ordem em que serão executados -->
+
+</body>
+</html>
