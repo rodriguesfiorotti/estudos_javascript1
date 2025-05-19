@@ -1,0 +1,28 @@
+
+ESTRUTURA CONDICIONAL SWITCH:
+
+Permite criar blocos condicionais como o IF, porém com uma estrutura que avalia uma expressão e testa o resultado contra vários casos, executando os casos correspondentes.
+
+É possível definir um caso padrão, que sempre é executado 
+
+Também é possível parar a execução após algum dos casos.
+
+    SWITCH expressao
+        CASO a : faça uma coisa
+        CASO b : faça uma coisa E PARE
+        CASO c : faça mais uma coisa
+        POR PADRÃO : faça algo sempre
+
+    Sintaxe:
+
+        switch (expressao) {
+            case "a":
+            //...
+            case "b":
+            //...
+            break
+            case "c":
+            //...
+            default:
+            //...
+        }
